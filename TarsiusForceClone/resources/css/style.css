@@ -1,0 +1,214 @@
+@font-face{
+	font-family: "Roboto-Regular";
+	src:url('../fonts/Roboto-Regular.ttf');
+}
+@font-face{
+	font-family: "Roboto-Bold";
+	src:url('../fonts/Roboto-Bold.ttf');
+}
+@font-face{
+	font-family: "Roboto-Light";
+	src:url('../fonts/Roboto-Light.ttf');
+}
+
+/* Default configuration*/
+body{
+    margin : 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #373737;
+}
+.clear{
+    float : none;
+    clear : both;
+}
+.center{
+    width : 961px;
+    margin : 0 auto;
+}
+
+/*Header configuration*/
+#header{
+    padding : 35px 0;
+}
+
+#header #logo{
+    float : left;
+}
+#header .navigation{
+    float : right;
+    margin-top: 20px;
+}
+#header .navigation ul{
+    list-style-type : none;
+    padding: 0;
+    margin:0;
+}
+#header .navigation ul li{
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Roboto-Regular";
+}
+#header .navigation ul li a{
+    padding: 20px 25px;
+    text-transform: uppercase;
+    color: #373737;
+    text-decoration: none;
+}
+#header .navigation ul li a:hover{
+    color: #0b63cc;
+    -webkit-transition: 0.3s time;
+    -moz-transition: 0.3s time;
+    -ms-transition: 0.3s time;
+    -o-transition: 0.3s time;
+    transition: 0.3s time;
+}
+
+
+/* Banner configuration */
+#banner{
+    background: url("../images/banner.png") no-repeat center center;
+    padding: 115px;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+}
+#banner h1{
+	margin-top: 0px;
+	margin-bottom: 0;
+    font-size:42px;
+    text-transform: uppercase;
+}
+#banner h2{
+	margin-top: 7px;
+    font-size:24px;
+    font-weight: normal;
+    font-family: "Roboto-Light";
+}
+.btn-primary{
+	margin-top: 40px;
+    border: solid 2px #FFFFFF;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+.btn-primary:hover{
+    background: #ffffff;
+    color: #0b64cd;
+    -webkit-transition: 0.3s time;
+    -moz-transition: 0.3s time;
+    -ms-transition: 0.3s time;
+    -o-transition: 0.3s time;
+    transition: 0.3s time;
+}
+
+/*Our-service*/
+
+#our-services{
+    padding: 25px;
+    font-family: "Roboto-Regular";
+}
+#our-services .title-content{
+	font-family: "Roboto-Light";
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#our-services .title-content span{
+    text-transform: uppercase;
+    font-family: "Roboto-Bold";
+}
+.content-list .list-services{
+    background: #0a63d2;
+    padding: 20px;
+    float: left;
+    width: 45% ;
+    color: #FFFFFF;
+}
+.content-list .list-services:last-child{
+    float: right;
+}
+.content-list .list-services h2{
+    text-transform: uppercase;
+    font-size:26px;
+    margin-bottom:10px;
+    margin-top: 0;
+}
+.content-list .list-services .text{
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.content-list .list-services .button a{
+    display: inline-block;
+    padding : 10px;
+    border: solid 2px #FFFFFF;
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.content-list .list-services .button a:hover{
+    color: #0b64cd;
+    background: #ffffff;
+    -webkit-transition: 0.3s time;
+    -moz-transition: 0.3s time;
+    -ms-transition: 0.3s time;
+    -o-transition: 0.3s time;
+    transition: 0.3s time;
+}
+
+/* Subscribe */
+#notification-subscribe{
+    background: #d7d7d7;
+    padding: 25px 0;
+    margin-top: 30px;
+
+}
+#notification-subscribe h2{
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+#notification-subscribe h3{
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+#notification-subscribe .left-content{
+   float:left;
+}
+#notification-subscribe .right-content{
+    float:right;
+    padding-top: 35px;
+}
+#notification-subscribe .large-btn{
+    display: inline-block;
+    background: #0a63d2;
+    font-size: 24px;
+    padding: 18px 35px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+}
+#notification-subscribe .large-btn:hover{
+    color: #0a63d2;
+    background: #ffffff;
+    -webkit-transition: 0.3s time;
+    -moz-transition: 0.3s time;
+    -ms-transition: 0.3s time;
+    -o-transition: 0.3s time;
+    transition: 0.3s time;
+}
+/* Footer configuration */
+#footer{
+    background: #373737;
+    padding : 30px 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+}
