@@ -212,3 +212,59 @@ body{
     color: #ffffff;
     font-size: 16px;
 }
+
+/* Responsive */
+@media screen and (max-width: 1095px){
+
+    .center{
+        width : auto;
+        padding:  0 20px;
+        margin : 0;
+    }
+}
+
+@media screen and (max-width : 1095px){
+    #notification-subscribe .left-content,
+    #notification-subscribe .right-content{
+        float: none;
+        padding-top: 0 20px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 920px){
+.content-list .list-services,
+.content-list .list-services:last-child{
+     width: auto;
+     display: block;
+     float: none;
+     margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 790px){
+    #header .navigation, 
+    #header #logo{
+        float: none;
+        width: auto;
+        margin: 0, auto
+    }
+
+    #header #logo{
+        margin-bottom: 0px;
+    }
+
+    #header #logo img{
+        margin: 0 auto;
+        display : table;
+    }
+
+    #header .navigation ul{
+        display: table;
+        margin : 0 auto;
+    }
+
+    #banner h1{
+        font-size: 30px;
+    }
+}
